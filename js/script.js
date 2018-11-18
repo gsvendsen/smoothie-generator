@@ -159,6 +159,7 @@ function componentToHex(c) {
   return hex.length == 1 ? "0" + hex : hex;
 }
 
+//! FIX ME: Returns wrong hex value, fix it!
 // Converts RGB values to Hex values
 function rgbToHex(rgb) {
   //TODO: Replace '"rgb("255,255,255")"'

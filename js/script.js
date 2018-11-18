@@ -48,7 +48,7 @@ const EmptySmoothie = ()=>{
 }
 
 const AddIngredient = (color)=>{
-  var newDiv = document.createElement('div');
+  let newDiv = document.createElement('div');
 
   newDiv.setAttribute('class', 'component');
   newDiv.style.backgroundColor = color;

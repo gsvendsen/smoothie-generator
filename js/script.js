@@ -35,9 +35,9 @@ ingredientElements.forEach((ingredientElement) => {
       AddIngredient(ingredientElement.getAttribute("data-color"))
 
       if(filler.childElementCount == 6){
+        window.alert("Smoothie is ready.");
         filler.classList.add("empty");
         window.setTimeout(EmptySmoothie, 500)
-        window.alert("Smoothie is ready.");
       }
   })
 })

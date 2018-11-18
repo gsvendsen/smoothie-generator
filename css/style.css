@@ -58,6 +58,7 @@
   width:150px;
   height:40px;
   animation: fill 0.5s;
+  transition: background-color .5s ease;
 }
 
 .filler {
